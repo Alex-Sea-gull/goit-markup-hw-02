@@ -33,6 +33,7 @@ ul {
 }
 
 .accent {
+  color: #2e2f42;
 }
 
 .header-menu-list {
@@ -72,11 +73,11 @@ ul {
 }
 
 .header-contacts-link:hover {
-  background-color: #4d5ae5;
+  color: #404bbf;
 }
 
 .header-contacts-link:focus {
-  background-color: #4d5ae5;
+  color: #404bbf;
 }
 
 /*------------------------------*/
