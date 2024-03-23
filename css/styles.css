@@ -28,7 +28,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .accent {
@@ -43,14 +43,13 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .header-menu-link {
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:hover .header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -140,13 +139,14 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
-  color: #ffffff;
 }
 
 .team-image {
@@ -158,12 +158,14 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-proffesion {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*------------------------------*/
@@ -175,11 +177,12 @@ ul {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -197,6 +200,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-text {
