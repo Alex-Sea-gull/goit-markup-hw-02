@@ -28,7 +28,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .accent {
@@ -49,7 +49,8 @@ ul {
 .header-menu-link {
 }
 
-.header-menu-link:hover .header-menu-link:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -87,12 +88,23 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .service-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
+}
+
+.service-button:hover,
+.service-button:focus {
+  color: #404bbf;
 }
 
 /*------------------------------*/
@@ -103,6 +115,7 @@ ul {
 
 .title-advantages {
   visibility: hidden;
+  color: #2e2f42;
 }
 
 .advantages-list {
@@ -189,6 +202,7 @@ ul {
 }
 
 .portfolio-item {
+  color: #ffffff;
 }
 
 .portfolio-image {
