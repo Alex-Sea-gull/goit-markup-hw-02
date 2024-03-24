@@ -50,11 +50,8 @@ ul {
 .header-menu-link {
 }
 
-.header-menu-item:hover {
-  color: #404bbf;
-}
-
-.header-menu-item:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -121,7 +118,12 @@ ul {
 }
 
 .title-advantages {
-  visibility: hidden;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .advantages-list {
